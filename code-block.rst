@@ -34,6 +34,7 @@ Code block bash (default)
   cat ok
 
 Code block bash with run-executable context
+=====
 
 .. container:: context-run-executable
 
@@ -44,12 +45,14 @@ Code block bash with run-executable context
     cat ok
 
 Code block python (default)
+=====
     
 .. code-block:: python
 
   print "Goodbye, World!"
     
 Code block python with run-executable context
+=====
     
 .. container:: context-run-executable
 
@@ -58,6 +61,7 @@ Code block python with run-executable context
     print "Goodbye, World!"
 
 Code custom
+=====
 
 .. container:: context-custom
   
