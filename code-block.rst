@@ -1,5 +1,18 @@
-Code block R
-------------
+Code block
+-----
+
+Code block R (default)
+=====
+
+.. code-block:: r
+
+  # this is a test
+  install.packages("ff")
+  library("ff")
+  print("Hello World!")
+
+Code block R with run-executable context
+=====
 
 .. container:: context-run-executable
 
@@ -12,6 +25,7 @@ Code block R
 
 
 Code block bash (default)
+=====
 
 .. code-block:: bash
 
@@ -19,7 +33,7 @@ Code block bash (default)
   ls ok
   cat ok
 
-Code block bash (with run-executable context)
+Code block bash with run-executable context
 
 .. container:: context-run-executable
 
@@ -29,14 +43,20 @@ Code block bash (with run-executable context)
     ls ok
     cat ok
 
-Code block python
+Code block python (default)
+    
+.. code-block:: python
+
+  print "Goodbye, World!"
+    
+Code block python with run-executable context
     
 .. container:: context-run-executable
 
   .. code-block:: python
 
     print "Goodbye, World!"
-    
+
 Code custom
 
 .. container:: context-custom
