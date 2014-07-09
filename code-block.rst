@@ -1,6 +1,17 @@
 Code block
 -----
 
+
+Code block XML Application Descriptor file
+=====
+
+.. container:: context-application-descriptor-file
+
+  .. code-block:: r
+  
+    <myXml>...</myXml>
+    
+
 Code block R (default)
 =====
 
